@@ -1,0 +1,35 @@
+{
+  "name": "qrfile",
+  "version": "1.0.0",
+  "description": "Transfer files by scanning a QR code",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": {
+    "name": "sgbj",
+    "url": "https://github.com/sgbj"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sgbj/qrfile.git"
+  },
+  "keywords": [
+    "transfer",
+    "file",
+    "console",
+    "terminal",
+    "command",
+    "qr"
+  ],
+  "bin": {
+    "qrf": "./bin/qrf.js"
+  },
+  "preferGlobal": true,
+  "license": "MIT",
+  "dependencies": {
+    "inquirer": "^5.1.0",
+    "mime": "^2.2.0",
+    "qrcode-terminal": "^0.12.0"
+  }
+}
